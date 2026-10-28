@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "canopy-growth"
+dynamic = ["version"]
+description = "Canopy height growth from repeated airborne LiDAR (PNOA, Spain)"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+authors = [{ name = "Elvira Gayanova" }]
+requires-python = ">=3.11"
+# PDAL and GDAL come from conda-forge (environment.yml), not from pip.
+dependencies = ["numpy", "pyyaml"]
+keywords = ["lidar", "forest", "canopy height", "growth", "PNOA", "Spain", "power lines"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: GIS",
+  "Intended Audience :: Science/Research",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.urls]
+Repository = "https://github.com/ElviraGD-lab/canopy-growth"
+Issues = "https://github.com/ElviraGD-lab/canopy-growth/issues"
+
+[tool.setuptools.dynamic]
+version = { attr = "canopy_growth.__version__" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

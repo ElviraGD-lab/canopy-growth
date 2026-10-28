@@ -1,0 +1,6 @@
+# Pass/fail thresholds of every check.
+# Rule: a threshold is committed here BEFORE the step that it checks is run,
+# and is never changed after seeing the result (a change needs a new entry
+# with the reason, in ASSUMPTIONS.md).
+# Thresholds are added step by step, starting with step 3.1.
+thresholds: {}

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "canopy-growth: Canopy Growth from Repeated Airborne LiDAR"
+abstract: >-
+  Canopy height growth in m/yr with an interval, measured from the repeated
+  national airborne LiDAR surveys of Spain (PNOA), with a passport of every
+  survey strip and a report on where the numbers can be trusted.
+authors:
+  - family-names: Gayanova
+    given-names: Elvira
+    orcid: "https://orcid.org/0009-0002-4252-311X"
+license: Apache-2.0
+repository-code: "https://github.com/ElviraGD-lab/canopy-growth"
+keywords:
+  - lidar
+  - forest
+  - canopy height
+  - growth
+  - PNOA
+  - Spain
+  - power lines

@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# secrets — never in git
+.env
+.cdsapirc
+*.p12
+*.pem
+
+# data — never in git (the code downloads PNOA tiles itself)
+data/
+*.laz
+*.las
+*.copc.laz
+*.vpc
+*.tif
+*.tiff
+*.aux.xml
+*.gpkg-wal
+*.gpkg-shm

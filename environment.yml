@@ -1,0 +1,19 @@
+# Conda environment for canopy-growth.
+#   conda env create -f environment.yml
+#   conda activate canopy-growth
+#   pip install -e . --no-deps
+name: canopy-growth
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12
+  - pdal
+  - python-pdal
+  - gdal
+  - rasterio
+  - geopandas
+  - numpy
+  - pyyaml
+  - pytest
+  - pip

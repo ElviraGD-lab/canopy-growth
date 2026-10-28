@@ -1,0 +1,6 @@
+# Pilot site: Puerto de Pajares (Cantabrian Mountains), Asturias / León border.
+# Coordinates in ETRS89 / UTM zone 30N.
+name: pajares
+crs: "EPSG:25830"
+# frame: [xmin, ymin, xmax, ymax] in metres
+frame: [270000, 4759000, 278000, 4767000]
