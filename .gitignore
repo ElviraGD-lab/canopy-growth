@@ -26,3 +26,16 @@ data/
 *.aux.xml
 *.gpkg-wal
 *.gpkg-shm
+
+*.gpkg
+*.parquet
+
+# archives and databases
+*.zip
+*.rar
+*.7z
+*.accdb
+
+# step results and local environments
+outputs/
+.venv/
