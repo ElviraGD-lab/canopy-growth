@@ -6,8 +6,7 @@ name: canopy-growth
 channels:
   - conda-forge
   - nodefaults
-dependencies:
-  # Versions pinned to major.minor, so a rebuilt environment gives the same results.
+# Versions pinned to major.minor, so a rebuilt environment gives the same results.
 # Raise a pin in its own pull request, with the tests green.
 dependencies:
   - python=3.12
