@@ -6,14 +6,16 @@ name: canopy-growth
 channels:
   - conda-forge
   - nodefaults
+# Versions pinned to major.minor, so a rebuilt environment gives the same results.
+# Raise a pin in its own pull request, with the tests green.
 dependencies:
   - python=3.12
-  - pdal
-  - python-pdal
-  - gdal
-  - rasterio
-  - geopandas
-  - numpy
-  - pyyaml
-  - pytest
+  - pdal=2.10
+  - python-pdal=3.5
+  - gdal=3.13
+  - rasterio=1.5
+  - geopandas=1.2
+  - numpy=2.5
+  - pyyaml=6.0
+  - pytest=9
   - pip
