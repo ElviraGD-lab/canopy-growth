@@ -1,12 +1,12 @@
 # canopy-growth
 
+[![DOI](https://zenodo.org/badge/1436865055.svg)](https://doi.org/10.5281/zenodo.23856842)
 **Canopy Growth from Repeated Airborne LiDAR** — how fast the forest grows, measured from the
 free national LiDAR surveys of Spain (PNOA), with an honest statement of where the old surveys
 do not allow it.
 
-> **Status: early development.** The repository is set up (step 3.0 of the plan). Nothing is
-> computed yet; the first release with a DOI follows when the base passes its tests.
-
+> **Status: early development.** Version 0.1.0 is the project skeleton: package, tests and
+> continuous integration. Nothing is computed yet; the data step (3.1) comes next.
 Part of the **Pajares** project — three open tools for forests and power lines in Spain:
 `canopy-growth`, `storm-forest-damage`, `powerline-treefall-risk`.
 
