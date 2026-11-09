@@ -10,7 +10,10 @@ channels:
 # Raise a pin in its own pull request, with the tests green.
 dependencies:
   - python=3.12
-  - pdal=2.10
+  # PDAL core and the pdal command only. The full 'pdal' package also installs
+  # all reader/writer plugins; the HDF ones are built against another HDF5 and
+  # fail to load on every start. Add a plugin package here only when it is used.
+  - libpdal-core=2.10
   - python-pdal=3.5
   - gdal=3.13
   - rasterio=1.5
@@ -18,4 +21,5 @@ dependencies:
   - numpy=2.5
   - pyyaml=6.0
   - pytest=9
+  - ipykernel=7.4  # run notebooks in this environment (VS Code, Jupyter)
   - pip
