@@ -22,4 +22,5 @@ dependencies:
   - pyyaml=6.0
   - pytest=9
   - ipykernel=7.4  # run notebooks in this environment (VS Code, Jupyter)
+  - matplotlib-base=3.11  # figures in notebooks and QC reports (no Qt GUI)
   - pip
