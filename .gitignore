@@ -30,6 +30,13 @@ data/
 *.gpkg
 *.parquet
 
+# confidential inputs (for example field plots under a confidentiality
+# agreement) — keep them in private/ on your own computer, never in git
+private/
+*.xlsx
+*.xls
+*.ods
+
 # archives and databases
 *.zip
 *.rar
