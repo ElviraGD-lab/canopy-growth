@@ -12,6 +12,13 @@ do not allow it.
 Part of the **Pajares** project — three open tools for forests and power lines in Spain:
 `canopy-growth`, `storm-forest-damage`, `powerline-treefall-risk`.
 
+## Tutorial (ES/EN)
+
+The open book [*From Field to Code: LiDAR from Scratch*](https://elviragd-lab.github.io/field-to-code-lidar/)
+builds this tool step by step, in Spanish and English: what LiDAR measures, how to read the PNOA
+surveys, PDAL, ground and canopy height models, and every check of this repository. It is book 5
+of the series [*From Field to Code*](https://elviragd-lab.github.io).
+
 ## What it gives
 
 - A map of **canopy height growth in m/yr with an interval** (20–30 m cells); separately —
